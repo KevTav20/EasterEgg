@@ -1,0 +1,31 @@
+# Ignorar el entorno virtual
+venv/
+.env/
+
+# Archivos de Python compilados
+*.pyc
+__pycache__/
+
+# Archivos de configuración de entorno
+*.env
+
+# Configuración de editores y sistemas operativos
+.vscode/
+.idea/
+.DS_Store
+
+# Archivos de log
+*.log
+
+# Archivos de caché de pytest
+.pytest_cache/
+
+# Archivos de cobertura de tests
+htmlcov/
+coverage.xml
+*.cover
+*.coverage
+
+# Archivos de configuración de mypy y pyright
+.mypy_cache/
+.pyright/
